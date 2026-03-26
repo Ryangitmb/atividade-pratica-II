@@ -1,0 +1,49 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial;
+    margin: 0;
+}
+
+header {
+    background: #222;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+nav {
+    background: #444;
+    padding: 10px;
+    text-align: center;
+}
+
+nav a {
+    color: white;
+    margin: 10px;
+}
+
+.container {
+    padding: 20px;
+}
+
+.descricao {
+    margin-bottom: 15px;
+}
+
+.formulario input,
+.formulario select,
+.formulario textarea {
+    display: block;
+    width: 100%;
+    margin-bottom: 10px;
+    padding: 8px;
+    border: 1px solid #ccc;
+}
+
+button {
+    padding: 10px;
+    border: 1px solid black;
+}
